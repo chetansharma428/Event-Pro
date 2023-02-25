@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <div class="top-bar py-2">
+    <div class="container ">
+      <nav id="navbar_top" class="navbar fixed-top navbar-expand-lg navbar-light ">
+        <button class="bg-transparent border-0">
+          <div class="navbar-brand me-2 d-flex flex-row justify-content-around text-center mx-auto" href="#">
+            <img src="../../../assets/images/rdlogo.png"/>
+            <p class="h1" href="#"><span class="half">RD</span><span class="start">Event</span> </p>
+          </div>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="#navbarSupportedContent" [ngbCollapse]="!isCollapsed">
+          <div class="nav d-flex align-items-center justify-content-center navbar-nav mx-auto">
+            <a class="nav-item nav-link me-4" href="scrollspyheading-experience">Experience</a>
+            <a class="nav-item nav-link me-4" href="scrollspyheading-about">About</a>
+            <a class="nav-item nav-link me-4" href="scrollspyheading-FAQ">FAQ</a>
+            <a class="nav-item nav-link me-4" href="scrollspyheading-eventinfo">Event Information</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>

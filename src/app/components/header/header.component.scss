@@ -1,0 +1,104 @@
+
+// .top-bar{
+//     margin-left: 20px;
+// 
+.navbar-brand img{
+    height: 50px;
+}
+#navbar_top {
+    background-color: #1a1a1d;
+    // border-radius: 7px;
+    box-shadow: 0px 0px 5px 10px rgb(0,0,0,0.15);
+}
+.half {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.start {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #c3037f
+}
+.navbar-nav .nav-link.active{
+    color: #ffffff;
+}
+.navbar-nav .nav-link:hover{
+    color: #2bbedf;
+}
+@media screen and (min-width: 601px){
+    .navbar-nav .nav-link{
+        font-family: 'Raleway', sans-serif;
+    // font-size: 17px;
+    // padding: 11px;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    }
+}
+@media screen and (max-width: 601px){
+    .navbar-nav .nav-link{
+        font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    }
+}
+.btn{
+    font-family: 'Raleway', sans-serif;
+}
+.dropdown {
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+  }
+ .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+@media screen and (min-width: 601px){
+    .dropdown-toggle{
+        font-family: 'Raleway', sans-serif;
+        font-size: 17px;
+        padding: 11px;
+        font-style: normal;
+        font-weight: 700;
+        color: #ffffff;
+      }
+  }
+@media screen and (max-width: 601px){
+  .dropdown-toggle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    }
+}
+.dropdown-btn.active{
+    color: #ffffff;
+}
+.dropdown-btn:hover{
+    color:#2bbedf;
+}
+
+.form-control{
+    padding-left: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.input-icon{
+    position: absolute;
+    top: 5px;
+    z-index: 999;
+    margin-left: 20px;
+}
+::-webkit-input-placeholder {
+    padding-left: 15px;
+ }

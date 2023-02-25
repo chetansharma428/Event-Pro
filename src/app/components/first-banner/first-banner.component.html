@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <div id="carouselExampleControls" class="carousel slide py-3" data-bs-ride="carousel" *ngIf="images">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img [src]="images[0]" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <div class="col element d-flex justify-content-start">
+               <div class="date-event px-2 ">
+                <svg aria-hidden="true" class="e-font-icon-svg e-far-calendar-alt" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"></path></svg>
+               </div> 
+                <h1 >JULY,15 | 2023</h1>
+        </div>
+        <div class="row">
+            <div class="banner-caption  carousel-caption h2 py-2">
+                <h1 class="city-heading">GUWAHATI <br> INDIA EDITION</h1>
+            </div>
+        </div>
+        <div class="col banner-text">
+            <p>
+                <span class="half">Elevate</span> your makeup
+            </p>
+            <p class="sub-text">
+                We're thrilled to invite you to join us for a day of glamour and beauty.
+                Our event is designed to showcase the latest trends in makeup artistry and provide you with a one-of-a-kind experience.
+            </p>
+            <button type="button join-but" class="btn btn-success btn-lg"  (click)="gotowhatsapp()">Join Us <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+              </svg> </button>
+        </div>
+        
+    </div>
+</div>

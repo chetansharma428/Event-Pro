@@ -1,0 +1,66 @@
+.banner-caption{
+    top: 18%;
+    left: -30%;
+}
+.element{
+    font-family: 'Manrope', sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 14%;
+    left: 6%;
+    color: #585858;
+}
+.date-event{
+    height: 50px;
+    width: 50px;
+    fill: rgb(0, 47, 255);
+}
+.banner-text{
+    font-size: 40px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 6%;
+    text-shadow: 0 15px 15px rgba(39, 39, 39, 0.3);
+}
+.half{
+    font-family: 'Manrope', sans-serif;
+    color: rgb(0, 47, 255); 
+}
+.sub-text{
+    font-size: 25px;
+    font-weight: 100;
+    width: 25%;
+    color: grey;
+    text-shadow: none;
+}
+.join-but{
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    left: 6%;
+}
+.city-heading {
+    font-family: 'Manrope', sans-serif;
+	background: url("../../../assets/images/bg2.jpg");
+  	-webkit-background-clip: text;
+      background-clip: text;
+	background-size: contain;
+	width: 100%;
+	text-align: center;
+	color: transparent;
+	font-weight: 900;
+	font-size: 100px;
+    text-shadow: 
+	                 0 0 5px rgba(0,0,0,.05),
+	              0 10px 10px rgba(0,0,0,.2),
+	              0 20px 20px rgba(0,0,0,.3);
+}
+
+.button-caption{
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: black;
+}
