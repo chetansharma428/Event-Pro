@@ -1,0 +1,40 @@
+.container-fluid{
+    background: #B79891;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 70px 0 30px;
+}
+.container{
+    background: white;
+    border-radius: 15px;
+}
+.hotel img{
+    width: 100%;
+    height: 800px;
+    padding: 30px 0px 15px;
+}
+.class-loc{
+    font-size: 40px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding-left: 25px;
+}
+.half{
+    color: #002fffc2;
+}
+.about-hotel{
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 100;
+}
+.address{
+    font-size: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+.add-venue{
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}

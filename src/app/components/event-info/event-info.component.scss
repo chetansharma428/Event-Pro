@@ -1,0 +1,47 @@
+.container-fluid {
+    background: #CC95C0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+    background: #616161;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9bc5c3, #616161);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(180deg, #F8CDDA 30%, #1D2B64 100%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 25rem;
+    height: 30rem;
+    box-shadow: 0;
+}
+
+.card-img-top {
+    width: auto;
+    height: 50%;
+}
+
+.event-head {
+    font-family: 'Manrope', sans-serif;
+    padding: 70px;
+    font-size: 40px;
+    color: #f7efe2;
+}
+.card-text{
+    font-family: 'Manrope', sans-serif;
+    color: whitesmoke;
+}
+.half {
+    color: #002fffc2;
+}
+
+.title {
+    position: absolute;
+    z-index: 1;
+    color: #ffffffa1;
+    font-size: 25px;
+    font-family: 'Manrope', sans-serif;
+}

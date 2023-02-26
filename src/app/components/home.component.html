@@ -5,7 +5,7 @@
           <button class="bg-transparent border-0">
             <div class="navbar-brand me-2 d-flex flex-row justify-content-around text-center mx-auto" href="#">
               <img src="../../../assets/images/rdlogo.png"/>
-              <p class="h1" href="#"><span class="half">RD</span><span class="start">Event</span> </p>
+              <p class="h1" (click)="inview(item5)"><span class="half">RD</span><span class="start">Event</span> </p>
             </div>
           </button>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -25,20 +25,21 @@
       </div>
     </div>
   </div>
-<!-- <app-header></app-header> -->
-<app-first-banner></app-first-banner>
+<div #item5>
+    <app-first-banner></app-first-banner>
+</div>
 <app-mid-card></app-mid-card>
-<div class="div" #item1>
+<div #item1>
     <app-event-info></app-event-info>
 </div>
-<div class="div" #item2>
+<div #item2>
     <app-about-artist></app-about-artist>
 </div>
-<div class="div" #item4>
+<div #item4>
     <app-event-schedule></app-event-schedule>
 </div>
 <app-event-location></app-event-location>
-<div class="div" #item3>
+<div #item3>
     <app-faq></app-faq>
 </div>
 <app-footer></app-footer>
