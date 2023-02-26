@@ -16,6 +16,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AboutArtistComponent } from './about-artist/about-artist.component';
+import { EventLocationComponent } from './event-location/event-location.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { AboutArtistComponent } from './about-artist/about-artist.component';
     FaqComponent,
     FooterComponent,
     AboutArtistComponent,
+    EventLocationComponent,
   ],
   imports: [
     CommonModule,

@@ -4,13 +4,29 @@
     font-weight: 600;
     background: linear-gradient(to right, #c9dcf075, #021b79cf);
 }
-.banner-caption{
+.head-point{
     font-family: 'Raleway', sans-serif;
     line-height: 1;
     top: 20%;
+    font-size: 45px;
+    font-weight: 700;
 }
-.button-caption{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    color: black;
+.half{
+    color: #002fff;
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+  }
+.caption{
+    font-family: "Raleway", sans-serif;
+    color: rgb(247, 239, 226);
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+    left: 40%;
+    font-size: 25px;
 }
