@@ -1,0 +1,151 @@
+.container-fluid {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 70px 0px 70px;
+}
+.Price-head{
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.half{
+    color: #e46400;
+    font-weight: 700;
+}
+.dia-head{
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: #e46400;
+    svg {
+        display: block;
+        height: 10vh;
+        margin: 0 auto;
+      }
+}
+
+.plat-head{
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: #e46400;
+    svg {
+        display: block;
+        height: 10vh;
+        margin: 0 auto;
+        animation: pulse 2s ease-out infinite;
+      }
+}
+@keyframes grow {
+	0% {
+		transform: scale(0);
+	}
+	30% {
+		transform: scale(1.1);
+	}
+	60% {
+		transform: scale(0.9);
+	}
+}
+@keyframes turn {
+	0% {
+		transform: rotate(0) scale(0);
+		opacity: 0;
+	}
+	60% {
+		transform: rotate(375deg) scale(1.1);
+	}
+	80% {
+		transform: rotate(355deg) scale(0.9);
+	}
+	100% {
+		transform: rotate(360deg) scale(1);
+	}
+}
+@keyframes pulse {
+	50% {
+		transform: scale(1.4);
+	}
+}
+.badge * {
+	transform-origin: 50% 50%;
+}
+
+.outer, 
+.inner,
+.inline {
+	animation: grow 1s ease-out backwards;
+}
+
+.inner {
+	animation-delay: 0.1s;
+}
+
+.inline {
+	animation-delay: 0.15s;
+}
+
+.star {
+	animation: turn 2.1s .2s ease-out backwards;
+}
+
+.star circle {
+	animation: pulse .7s 1.5s infinite;
+}
+
+	.star circle:nth-of-type(2) {
+		animation-delay: 1.6s;
+	}
+	.star circle:nth-of-type(3) {
+		animation-delay: 1.7s;
+	}
+	.star circle:nth-of-type(4) {
+		animation-delay: 1.8s;
+	}
+	.star circle:nth-of-type(5) {
+		animation-delay: 1.9s;
+	}
+.gold-head{
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: #e46400;
+    border-bottom: white 2px;
+    svg { 
+        display: block;
+           height: 10vh;
+           margin: 0 auto;
+         overflow:visible;   
+        animation: ticket-back 3s ease-out infinite;
+        use { 
+          fill:rgb(243, 210, 120);
+        }
+      }
+}
+.pric-card {
+    outline: 1px solid #f8f8ff80;
+    padding: 30px;
+}
+@keyframes ticket-back {
+    25% { transform:rotate(-18deg); }   
+ }
+.sub-head{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    color: #ffffffc4;
+}
+.element-points{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    color: wheat;
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    
+  }

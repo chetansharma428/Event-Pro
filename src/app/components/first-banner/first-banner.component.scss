@@ -1,13 +1,15 @@
-
+.container-fluid{
+    padding-top: 70px;
+}
 .banner-caption{
-    top: 18%;
+    top: 14%;
     left: -30%;
 }
 .element{
     font-family: 'Manrope', sans-serif;
     position: absolute;
     z-index: 1;
-    top: 14%;
+    top: 10%;
     left: 6%;
     color: #585858;
 }
@@ -17,12 +19,12 @@
     fill: rgb(0, 47, 255);
 }
 .banner-text{
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     position: absolute;
     z-index: 1;
-    top: 50%;
+    top: 42%;
     left: 6%;
     text-shadow: 0 15px 15px rgba(39, 39, 39, 0.3);
 }
@@ -30,8 +32,15 @@
     font-family: 'Manrope', sans-serif;
     color: rgb(0, 47, 255); 
 }
+.india-flag img{
+    height: 100px;
+    width: auto;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+}
 .sub-text{
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 100;
     width: 25%;
     color: grey;

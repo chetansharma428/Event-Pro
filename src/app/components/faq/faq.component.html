@@ -1,1 +1,45 @@
-<p>faq works!</p>
+<div class="container-fluid">
+    <div class="container">
+        <p class="faq-head">
+            Common FAQ's
+        </p>
+        <div class="col">
+            <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+                <ngb-panel title="Is that an online or in person class?">
+                    <ng-template ngbPanelContent>
+                        This is an In-Person Class Attendance, all the booking process will happen through this website, but the lessons will happen in Guwahati.
+                    </ng-template>
+                </ngb-panel>
+                <ngb-panel title="If in doubt, how will they be resolved?">
+                    <ng-template ngbPanelTitle>
+                    </ng-template>
+                    <ng-template ngbPanelContent>
+                        There will be a few moments during the event for questions and answers only.
+                    </ng-template>
+                </ngb-panel>
+                <ngb-panel title="In what language will the event be held?" >
+                    <ng-template ngbPanelContent>
+                        The class will be taught in English by the teacher
+                        . In each country where the event will take place, there will be a translation into the local language and in Hindi also.
+                    </ng-template>
+                </ngb-panel>
+                <ngb-panel title="What about the accommodation?" >
+                    <ng-template ngbPanelContent>
+                        Student accommodation is not provided by the event. If you want information on where the event will take place in your country, contact the partner organizer via whatsapp.
+                        All information about the hotel will be sent to you.
+                    </ng-template>
+                </ngb-panel>
+                <ngb-panel title="I made my reservation, now what?" >
+                    <ng-template ngbPanelContent>
+                        Contact us via whatsapp and we will send you the instructions.
+                    </ng-template>
+                </ngb-panel>
+                <ngb-panel title="Do I need to take makeup products and brushes?" >
+                    <ng-template ngbPanelContent>
+                        It is not necessary to bring any products to this class as there will be no practice sessions.
+                    </ng-template>
+                </ngb-panel>
+            </ngb-accordion>
+        </div>
+    </div>
+</div>
