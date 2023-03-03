@@ -1,16 +1,119 @@
+.container-fluid{
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(180deg, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 .heading{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     background: linear-gradient(to right, #c9dcf075, #021b79cf);
 }
-.head-point{
-    font-family: 'Raleway', sans-serif;
-    line-height: 1;
-    top: 20%;
-    font-size: 45px;
-    font-weight: 400;
-}
+@media screen and (max-width: 768px) {
+    /* Your CSS styles for small screens here */
+    .head-point{
+        line-height: 1;
+        font-size: 35px;
+        font-weight: 400;
+        text-align: center;
+        color: rgb(247, 239, 226);
+        text-shadow: 1px 1px 2px black;
+    }
+    .caption{
+        font-family: "Raleway", sans-serif;
+        color: #000000;
+        position: absolute;
+        top: 10%;
+        font-size: 22px;
+    }
+    .element-points{
+        font-size: 19px;
+        color: black;
+        font-weight: 400;
+    }
+  }
+  
+  /* Styles for screens between 768px and 992px (typical tablets) */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your CSS styles for medium screens here */
+    .head-point{
+        line-height: 1;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        color: rgb(247, 239, 226);
+        padding: 0;
+        text-shadow: 1px 1px 2px black;
+    }
+    .caption{
+        font-family: "Raleway", sans-serif;
+        color: #000000;
+        position: absolute;
+        top: 0%;
+        font-size: 22px;
+    }
+    .element-points{
+        font-size: 19px;
+        color: white;
+        font-weight: 100;
+        z-index: 1;
+        position: absolute;
+        top: 20%;
+    }
+  }
+  
+  /* Styles for screens between 992px and 1200px (typical desktops) */
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Your CSS styles for large screens here */
+    .head-point{
+        font-family: 'Raleway', sans-serif;
+        line-height: 1;
+        top: 20%;
+        font-size: 45px;
+        font-weight: 400;
+        text-shadow: 1px 1px 2px black;
+    }
+    .caption{
+        font-family: "Raleway", sans-serif;
+        color: rgb(247, 239, 226);
+        position: absolute;
+        z-index: 1;
+        top: 15%;
+        font-size: 25px;
+    }
+    .element-points{
+        font-size: 19px;
+    color: black;
+    }
+  }
+  
+  /* Styles for screens 1200px and above (typical large desktops) */
+  @media screen and (min-width: 1200px) {
+    /* Your CSS styles for extra-large screens here */
+    .head-point{
+        font-family: 'Raleway', sans-serif;
+        line-height: 1;
+        top: 20%;
+        font-size: 45px;
+        font-weight: 400;
+        text-shadow: 1px 1px 2px black;
+    }
+    .caption{
+        font-family: "Raleway", sans-serif;
+        color: rgb(247, 239, 226);
+        position: absolute;
+        z-index: 1;
+        top: 15%;
+        font-size: 25px;
+    }
+    .element-points{
+        font-size: 30px;
+        position: absolute;
+        z-index: 1;
+        color: mintcream;
+        top: 28%;
+    }
+  }
 .half{
     color: #002fff;
 }
@@ -21,12 +124,4 @@ ul {
   ul li:before {
     content: '✓';
   }
-.caption{
-    font-family: "Raleway", sans-serif;
-    color: rgb(247, 239, 226);
-    position: absolute;
-    z-index: 1;
-    top: 15%;
-    left: 40%;
-    font-size: 25px;
-}
+

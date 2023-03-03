@@ -1,12 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 .container{
     padding: 0;
+   
   }
   *{
       scroll-behavior: smooth;
   }
   body {
     margin:0;
+    width: -webkit-fill-available;
   }
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tangerine:wght@700&display=swap');

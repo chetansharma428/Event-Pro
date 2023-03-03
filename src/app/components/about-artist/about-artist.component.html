@@ -1,21 +1,22 @@
-<div class="container-fluid">
-  <div id="carouselExampleControls" class="carousel slide py-3" data-bs-ride="carousel" *ngIf="images">
+<div class="container-flu">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" *ngIf="images">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img [src]="images[0]" class="d-block w-100" alt="...">
       </div>
-      <div class="banner-cap">
-        <h2 class="artist-ques">Know about the Artist :</h2>
-        <p class="artist-name"> <span class="half">Kennedy</span> Hoffmann</p>
-        <P class="about-art">
-          Kennedy Hoffman is one of the biggest brazilian makeup artist he is recognized worlwide for his practical and
-          high end makeup techiniques. What you will see now are not just video classes are techniques that made him stand
-          out on the social media. It is, literally, the draft that gave rise to all his success. This course has one
-          release each week with valuable techniques with a lot of must have skills to take your carrer as a MUA to
-          another level. This course has more than 20 techniques.
-        </P>
-      </div>
     </div>
-    
+    <div class="col caption">
+      <h2 class="artist-ques w-100 d-flex align-items-center ca">Know about the Artist :</h2>
+      <p class="artist-name"> <span class="half">Kennedy</span> Hoffmann</p>
+    </div>
+    <div class="row w-100">
+      <p class="about-art">
+        Kennedy Hoffman is one of the biggest brazilian makeup artist he is recognized worlwide for his practical and
+        high end makeup techiniques. What you will see now are not just video classes are techniques that made him stand
+        out on the social media. It is, literally, the draft that gave rise to all his success. This course has one
+        release each week with valuable techniques with a lot of must have skills to take your carrer as a MUA to
+        another level. This course has more than 20 techniques.
+      </p>
+    </div>
   </div>
 </div>

@@ -1,37 +1,150 @@
-.banner-cap{
+.banner-cap {
     font-family: 'Manrope' sans-serif;
 }
-.artist-ques{
-    font-family: 'Manrope' sans-serif;
-    font-weight: 400;
-    position: absolute;
-    z-index: 1;
-    top: 14%;
-    left: 8%; 
-    color: #002fff99;
-    font-size: 50px;
+
+/* Styles for screens 768px and below (typical mobile devices) */
+@media screen and (max-width: 768px) {
+
+    /* Your CSS styles for small screens here */
+    .artist-ques {
+        font-weight: 400;
+        position: absolute;
+        z-index: 1;
+        top: 19%;
+        font-size: 23px;
+        text-shadow: 0 0 black;
+        padding-left: 12px;
+        color: #002fff99;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .artist-name {
+        font-weight: 500;
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+        left: 6%;
+        color: #000;
+        font-size: 25px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .about-art {
+        font-family: 'Manrope', sans-serif;
+        color: #54595F;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+    }
 }
-.artist-name{
-    font-family: 'Manrope' sans-serif;
-    font-weight: 500;
-    position: absolute;
-    z-index: 1;
-    top: 28%;
-    left: 8%;
-    color: #000;
-    font-size: 33px;
+
+/* Styles for screens between 768px and 992px (typical tablets) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* Your CSS styles for medium screens here */
+    .artist-ques {
+        font-weight: 400;
+        position: absolute;
+        z-index: 1;
+        top: 5%;
+        left: 8%;
+        color: #002fff99;
+        font-size: 40px;
+    }
+
+    .artist-name {
+        font-weight: 500;
+        position: absolute;
+        z-index: 1;
+        top: 20%;
+        left: 14%;
+        color: #000;
+        font-size: 33px;
+    }
+
+    .about-art {
+        position: absolute;
+        color: #54595F;
+        font-size: 14px;
+        width: 50%;
+        top: 36%;
+        left: 10%;
+    }
 }
-.half{
+
+/* Styles for screens between 992px and 1200px (typical desktops) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /* Your CSS styles for large screens here */
+    .artist-ques {
+        font-weight: 400;
+        position: absolute;
+        z-index: 1;
+        top: 14%;
+        left: 8%;
+        color: #002fff99;
+        font-size: 50px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .artist-name {
+        font-weight: 500;
+        position: absolute;
+        z-index: 1;
+        top: 28%;
+        left: 8%;
+        color: #000;
+        font-size: 33px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .about-art {
+        position: absolute;
+        color: #54595F;
+        font-size: 23px;
+        width: 35%;
+        top: 40%;
+        left: 7%;
+    }
+}
+
+/* Styles for screens 1200px and above (typical large desktops) */
+@media screen and (min-width: 1200px) {
+
+    /* Your CSS styles for extra-large screens here */
+    .artist-ques {
+        font-weight: 400;
+        position: absolute;
+        z-index: 1;
+        top: 14%;
+        left: 8%;
+        color: #002fff99;
+        font-size: 50px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .artist-name {
+        font-weight: 500;
+        position: absolute;
+        z-index: 1;
+        top: 28%;
+        left: 8%;
+        color: #000;
+        font-size: 33px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .about-art {
+        position: absolute;
+        color: #54595F;
+        font-size: 23px;
+        width: 35%;
+        top: 40%;
+        left: 7%;
+    }
+}
+
+.half {
     font-family: 'Manrope' sans-serif;
     color: #c3037f;
-}
-.about-art{
-    font-family: 'Manrope' sans-serif;
-    position: absolute;
-    z-index: 1;
-    top: 39%;
-    left: 8%;
-    color: #000;
-    font-size: 23px;
-    width: 30%;
 }

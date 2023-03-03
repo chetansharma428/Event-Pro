@@ -1,14 +1,63 @@
-.footer-text{
-    font-family: 'Manrope', sans-serif;
-    background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    width: 100%;
-    height: auto;
-    font-size: 27px;
-}
 .social-footer{
     font-weight: 500;
     color: #ffffff;
 }
+@media screen and (max-width: 768px) {
+    /* Your CSS styles for small screens here */
+    .footer-text{
+        font-family: 'Manrope', sans-serif;
+        background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+    }
+  }
+  
+  /* Styles for screens between 768px and 992px (typical tablets) */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your CSS styles for medium screens here */
+    .footer-text{
+        font-family: 'Manrope', sans-serif;
+        background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+        width: 100%;
+        height: auto;
+        font-size: 27px;
+    }
+  }
+  
+  /* Styles for screens between 992px and 1200px (typical desktops) */
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Your CSS styles for large screens here */
+    .footer-text{
+        font-family: 'Manrope', sans-serif;
+        background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+        width: 100%;
+        height: auto;
+        font-size: 27px;
+    }
+  }
+  
+  /* Styles for screens 1200px and above (typical large desktops) */
+  @media screen and (min-width: 1200px) {
+    /* Your CSS styles for extra-large screens here */
+    .footer-text{
+        font-family: 'Manrope', sans-serif;
+        background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+        width: 100%;
+        height: auto;
+        font-size: 27px;
+    }
+  }

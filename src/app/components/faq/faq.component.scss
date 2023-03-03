@@ -1,0 +1,39 @@
+.container-fluid{
+    background: #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    padding: 25px 0 100px;
+}
+.faq-head{
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 20px;
+}
+.half{
+    color: #002fffc2;
+}
+.accordian-item button{
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+.Copyright{
+    background: peachpuff;
+    font-family: 'Manrope', sans-serif;
+    padding: 50px 0px 70px;
+}
+.copy-right{
+    font-size: 20px;
+    font-weight: 600;
+}
+.credit{
+    font-weight: 600;
+}
+a{
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    font-weight: 200;
+}
