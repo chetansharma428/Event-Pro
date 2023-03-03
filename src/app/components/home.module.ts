@@ -11,7 +11,7 @@ import { BottomCardComponent } from './bottom-card/bottom-card.component';
 import { ContactComponent } from './contact/contact.component';
 import { FaqComponent } from './faq/faq.component';
 import { FooterComponent } from './footer/footer.component';
-import { NgbCollapseModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbAccordionModule, NgbCollapseModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
@@ -37,7 +37,7 @@ import { EventLocationComponent } from './event-location/event-location.componen
   imports: [
     CommonModule,
     HomeRoutingModule,NgbModule,
-     NgbCollapseModule,CarouselModule,
+     NgbCollapseModule,CarouselModule,NgbAccordionModule,
   ],
 })
 export class HomeModule { }
